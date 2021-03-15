@@ -1,0 +1,59 @@
+.button{
+	font-size: 13px;
+    color: #fff;
+    background: #0879c9;
+    text-decoration: none;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 13px;
+    outline: none;
+    letter-spacing: 1px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.45);
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.cart{
+	min-width: 20px;
+	min-height: 20px;
+	color: rgb(255, 255, 255);
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 1.6;
+	text-align: center;
+	background-color: #0879c9;
+	position: absolute;
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgb(255, 255, 255);
+	border-image: initial;
+	border-radius: 18px;
+}
+.btn-increment-decrement {
+    display: inline-block;
+    padding: 5px 0px;
+    background: #e2e2e2;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.input-quantity {
+    border: 0px;
+    width: 30px;
+    display: inline-block;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
